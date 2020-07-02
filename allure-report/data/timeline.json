@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Alex",
+    "children" : [ {
+      "name" : "3152@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test02: Update Team and Verify it",
+        "uid" : "7ac172e52533f78a",
+        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593685860999,
+          "stop" : 1593685861107,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Delete Team and Verify it",
+        "uid" : "198a759bdbdef931",
+        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593685861113,
+          "stop" : 1593685861227,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Add Team and Verify it",
+        "uid" : "c76ccf0c6d446129",
+        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593685860716,
+          "stop" : 1593685860903,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "fa3b80d30894c0e4a9362aa2ea4d30e7"
+    } ],
+    "uid" : "f9a0df851d8cefbd8100405915f5d457"
+  } ]
+}

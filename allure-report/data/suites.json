@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "API Tests",
+      "children" : [ {
+        "name" : "SanityTests.grafanaAPI",
+        "children" : [ {
+          "name" : "Test01: Add Team and Verify it",
+          "uid" : "c76ccf0c6d446129",
+          "parentUid" : "9db40972b02db88800fabef1ad3d62d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593685860716,
+            "stop" : 1593685860903,
+            "duration" : 187
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test02: Update Team and Verify it",
+          "uid" : "7ac172e52533f78a",
+          "parentUid" : "9db40972b02db88800fabef1ad3d62d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593685860999,
+            "stop" : 1593685861107,
+            "duration" : 108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test03: Delete Team and Verify it",
+          "uid" : "198a759bdbdef931",
+          "parentUid" : "9db40972b02db88800fabef1ad3d62d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593685861113,
+            "stop" : 1593685861227,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "9db40972b02db88800fabef1ad3d62d8"
+      } ],
+      "uid" : "4ed70f54fda3286e80a05bd83e56a3ad"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

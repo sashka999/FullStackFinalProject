@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 02 13:31:00 IDT 2020","Thu Jul 02 13:31:00 IDT 2020","187","Suite","API Tests","SanityTests.grafanaAPI","SanityTests.grafanaAPI","test01_AddTeamAndVerify","Test01: Add Team and Verify it","Test Description: Add Team to Grafana and Verify it"
+"passed","Thu Jul 02 13:31:01 IDT 2020","Thu Jul 02 13:31:01 IDT 2020","114","Suite","API Tests","SanityTests.grafanaAPI","SanityTests.grafanaAPI","test03_DeleteTeamAndVerify","Test03: Delete Team and Verify it","Test Description: Delete Team to Grafana and Verify it"
+"passed","Thu Jul 02 13:31:00 IDT 2020","Thu Jul 02 13:31:01 IDT 2020","108","Suite","API Tests","SanityTests.grafanaAPI","SanityTests.grafanaAPI","test02_UpdateTeamAndVerify","Test02: Update Team and Verify it","Test Description: Update Team to Grafana and Verify it"

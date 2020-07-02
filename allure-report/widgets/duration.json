@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c76ccf0c6d446129",
+  "name" : "Test01: Add Team and Verify it",
+  "time" : {
+    "start" : 1593685860716,
+    "stop" : 1593685860903,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198a759bdbdef931",
+  "name" : "Test03: Delete Team and Verify it",
+  "time" : {
+    "start" : 1593685861113,
+    "stop" : 1593685861227,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ac172e52533f78a",
+  "name" : "Test02: Update Team and Verify it",
+  "time" : {
+    "start" : 1593685860999,
+    "stop" : 1593685861107,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

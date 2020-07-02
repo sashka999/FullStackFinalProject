@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>>
+
+    <!-- Credentials -->
+    <user>admin</user>
+    <password>admin</password>
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>>
+    <url>http://localhost:9500</url>
+    <ImageRepo>./imageRepository/</ImageRepo>>
+
+    <!-- Mobile -->
+    <UDID>5503f564</UDID>>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+
+    <!-- API -->
+    <url_api>http://localhost:9500</url_api>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electron.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/ElectronApps/ElectronAPI_Demos.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <Calculator_App>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Calculator_App>
+    <Appium_Server>http://127.0.0.1:5333</Appium_Server>>
+
+    <!-- MySQL -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/Uo3Rqi3pyK</dbURL>
+    <dbUser>Uo3Rqi3pyK</dbUser>
+    <dbPassword>wX8aDf0LTz</dbPassword>
+
+</Environment>
