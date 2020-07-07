@@ -16,7 +16,5 @@ public class grafanaWebDB extends commonOps {
 
         webFlows.loginDB();
         verifications.textInElement(grafanaMain.txt_mainHeading, "Welcome to Grafana");
-
     }
-
 }

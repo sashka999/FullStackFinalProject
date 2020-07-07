@@ -18,5 +18,4 @@ public class electronDemo extends commonOps {
         electronFlows.getScreenInfo();
         verifications.textInElement(electronMain.field_screen_info, "Your screen is: 1920px x 1080px");
     }
-
 }

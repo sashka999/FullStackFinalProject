@@ -2,9 +2,6 @@ package Extensions;
 
 import Utilities.commonOps;
 import io.qameta.allure.Step;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +22,4 @@ public class dbActions extends commonOps {
         }
         return credentials;
     }
-
-
 }

@@ -15,6 +15,4 @@ public class electronFlows extends commonOps {
         uiActions.click(electronMain.btn_demo_toggle);
         uiActions.click(electronMain.btn_screen_info);
     }
-
-
 }

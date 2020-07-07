@@ -1,10 +1,9 @@
 package Utilities;
 
-import PageObjects.Grafana.*;
 import org.openqa.selenium.support.PageFactory;
 
 public class managePages extends base{
-
+// ------------------------------------------ This method initiates web/desktop elements on pages/apps. Used POM (Page Object Model) ---------------------------------
     public static void init(){
         grafanaLogin = PageFactory.initElements(driver, PageObjects.Grafana.loginPage.class);
         grafanaMain = PageFactory.initElements(driver, PageObjects.Grafana.mainPage.class);
@@ -17,6 +16,4 @@ public class managePages extends base{
         electronMain = PageFactory.initElements(driver, PageObjects.ElectronDemo.mainPage.class);
         calcMain = PageFactory.initElements(driver, PageObjects.Calculator.mainPage.class);
     }
-
-
 }

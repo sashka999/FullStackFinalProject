@@ -21,7 +21,6 @@ public class webFlows extends commonOps {
     @Step("Login Grafana Flow with DB Credentials")
     public static void loginDB() {
 
-//        dbActions.getCredentials("SELECT user_name, password FROM Users WHERE id = '3'").get(0);
         List<String> cred = dbActions.getCredentials("SELECT user_name, password FROM Users WHERE id = '3'");
         uiActions.updateText(grafanaLogin.txt_username, cred.get(0));
         uiActions.updateText(grafanaLogin.txt_password, cred.get(1));

@@ -15,5 +15,4 @@ public class calcFlows extends commonOps {
         uiActions.click(calcMain.btn_seven);
         uiActions.click(calcMain.btn_equals);
     }
-
 }

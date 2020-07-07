@@ -1,6 +1,5 @@
 package Utilities;
 
-import PageObjects.Grafana.*;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -10,7 +9,6 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 import io.restassured.specification.RequestSpecification;

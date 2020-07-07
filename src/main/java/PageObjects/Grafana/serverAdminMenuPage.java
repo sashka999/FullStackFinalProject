@@ -20,5 +20,4 @@ public class serverAdminMenuPage {
 
     @FindBy(how = How.CSS, using = "a[href ='/admin/upgrading']")
     public WebElement link_upgrade;
-
 }

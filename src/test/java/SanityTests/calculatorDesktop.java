@@ -17,5 +17,4 @@ public class calculatorDesktop extends commonOps {
         calcFlows.calculateAddition();
         verifications.textInElement(calcMain.field_result, "8");
     }
-
 }

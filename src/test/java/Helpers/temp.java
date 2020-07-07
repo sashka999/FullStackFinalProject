@@ -19,21 +19,13 @@ public class temp {
         params.put("name", "AlexTeam_2");
         params.put("email", "3@3.com");
 
-
         RestAssured.baseURI = url;
         httpRequest = RestAssured.given().auth().preemptive().basic("admin", "admin");
         httpRequest.header("Content-Type", "application/json");
 
         httpRequest.body(params.toJSONString());
-
-//        response = httpRequest.post("/api/teams");
-//        response = httpRequest.get("/api/teams/search?perpage=50&page=1");
-//        response = httpRequest.put("/api/teams/2");
-
         response = httpRequest.delete("/api/teams/2");
 
         System.out.println(response.prettyPrint());
-
     }
-
 }

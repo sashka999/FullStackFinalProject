@@ -11,5 +11,4 @@ public class leftMenuPage {
 
     @FindBy(how = How.CSS, using = "img[src= '/avatar/46d229b033af06a191ff2267bca9ae56']")
     public WebElement image_Avatar;
-
 }

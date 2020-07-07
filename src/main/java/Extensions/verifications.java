@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
-import ru.yandex.qatools.ashot.comparison.ImageDiffer;
-import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -56,5 +54,4 @@ public class verifications extends commonOps {
 
         assertEquals(actualText, expectedText);
     }
-
 }

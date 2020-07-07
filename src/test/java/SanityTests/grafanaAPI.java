@@ -8,8 +8,6 @@ import org.testng.annotations.Test;
 
 public class grafanaAPI extends commonOps {
 
-    String groupID;
-
     @Test(description = "Test01: Add Team and Verify it")
     @Description("Test Description: Add Team to Grafana and Verify it")
     public void test01_AddTeamAndVerify(){

@@ -3,7 +3,6 @@ package SanityTests;
 import Extensions.verifications;
 import Utilities.commonOps;
 import WorkFlows.mobileFlows;
-import WorkFlows.webFlows;
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -17,7 +16,5 @@ public class mortgageMobile extends commonOps {
 
         mobileFlows.calculate("1000", "3", "4");
         verifications.textInElement(mortgageMain.txt_repayment, "£30,03");
-
     }
-
 }

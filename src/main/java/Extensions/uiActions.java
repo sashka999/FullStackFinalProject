@@ -3,7 +3,6 @@ package Extensions;
 import Utilities.commonOps;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
@@ -39,5 +38,4 @@ public class uiActions extends commonOps {
 
         action.moveToElement(elem1).moveToElement(elem2).click().build().perform();
     }
-
 }
