@@ -5,11 +5,11 @@
     "name" : "Suite",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 3
+      "total" : 14
     }
   } ]
 }

@@ -9,7 +9,6 @@ public class mainPage {
     @FindBy(how = How.ID, using = "button-windows")
     public WebElement btn_windows;
 
-
     @FindBy(how = How.ID, using = "button-app-sys-information")
     public WebElement btn_info;
 

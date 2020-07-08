@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Invalid platform name stated",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "b5e841244b16f1e4",
+        "parentUid" : "930aa5a041dbad3c835d6c72eb3d4f4d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240143963,
+          "stop" : 1594240143964,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      } ],
+      "uid" : "930aa5a041dbad3c835d6c72eb3d4f4d"
+    }, {
+      "name" : "io.appium.java_client.windows.WindowsDriver.updateDefaultPlatformName(Lorg/openqa/selenium/Capabilities;Ljava/lang/String;)Lorg/openqa/selenium/Capabilities;",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "cf02f437472327e5",
+        "parentUid" : "9f8a4737b5aabfdda8b2891ce121c073",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594243533623,
+          "stop" : 1594243533625,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9f8a4737b5aabfdda8b2891ce121c073"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

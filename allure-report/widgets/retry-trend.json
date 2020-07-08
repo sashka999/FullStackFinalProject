@@ -1,4 +1,20 @@
 [ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 58
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/11/allure",
   "reportName" : "AllureReport",

@@ -2,47 +2,210 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "SanityTests.grafanaAPI",
+    "name" : "SanityTests",
     "children" : [ {
-      "name" : "test01_AddTeamAndVerify",
-      "uid" : "c76ccf0c6d446129",
-      "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593685860716,
-        "stop" : 1593685860903,
-        "duration" : 187
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "api" ]
+      "name" : "grafanaWebDB",
+      "children" : [ {
+        "name" : "test01_login",
+        "uid" : "334db52b03027c32",
+        "parentUid" : "e9c241fe7e3d45c31cf3cbed79840fcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594225224745,
+          "stop" : 1594225226311,
+          "duration" : 1566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "b5e841244b16f1e4",
+        "parentUid" : "e9c241fe7e3d45c31cf3cbed79840fcd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240143963,
+          "stop" : 1594240143964,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      }, {
+        "name" : "test01_login",
+        "uid" : "907e772847e31c4",
+        "parentUid" : "e9c241fe7e3d45c31cf3cbed79840fcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594243990153,
+          "stop" : 1594243991797,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      } ],
+      "uid" : "e9c241fe7e3d45c31cf3cbed79840fcd"
     }, {
-      "name" : "test02_UpdateTeamAndVerify",
-      "uid" : "7ac172e52533f78a",
-      "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593685860999,
-        "stop" : 1593685861107,
-        "duration" : 108
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "api" ]
+      "name" : "electronDemo",
+      "children" : [ {
+        "name" : "test01_verifyResolution",
+        "uid" : "c2ea35a965d13655",
+        "parentUid" : "d8fc0dd4397f44c7b71a4b95a6e265a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240698136,
+          "stop" : 1594240698524,
+          "duration" : 388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "d8fc0dd4397f44c7b71a4b95a6e265a6"
     }, {
-      "name" : "test03_DeleteTeamAndVerify",
-      "uid" : "198a759bdbdef931",
-      "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593685861113,
-        "stop" : 1593685861227,
-        "duration" : 114
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "api" ]
+      "name" : "calculatorDesktop",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "cf02f437472327e5",
+        "parentUid" : "107fe57b874e27abaeef2f36bd144f08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594243533623,
+          "stop" : 1594243533625,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "test01_addition",
+        "uid" : "2c08bc995e852e99",
+        "parentUid" : "107fe57b874e27abaeef2f36bd144f08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594243896619,
+          "stop" : 1594243898689,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "107fe57b874e27abaeef2f36bd144f08"
+    }, {
+      "name" : "grafanaWeb",
+      "children" : [ {
+        "name" : "test01_login",
+        "uid" : "8208ac0ece14bebd",
+        "parentUid" : "19f91b0e27769ad7f830fc3effae04e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244023962,
+          "stop" : 1594244025507,
+          "duration" : 1545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test02_verifyDefaultUsers",
+        "uid" : "cf93691e4fd61075",
+        "parentUid" : "19f91b0e27769ad7f830fc3effae04e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244025803,
+          "stop" : 1594244026351,
+          "duration" : 548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test03_addAndVerifyUsers",
+        "uid" : "ff72641c2f958c66",
+        "parentUid" : "19f91b0e27769ad7f830fc3effae04e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244026533,
+          "stop" : 1594244027667,
+          "duration" : 1134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test04_deleteAndVerifyUsers",
+        "uid" : "a358a33cf630b10",
+        "parentUid" : "19f91b0e27769ad7f830fc3effae04e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244027828,
+          "stop" : 1594244028695,
+          "duration" : 867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test05_verifyAvatar",
+        "uid" : "2bc6aa5ff0960122",
+        "parentUid" : "19f91b0e27769ad7f830fc3effae04e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244028862,
+          "stop" : 1594244029671,
+          "duration" : 809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "19f91b0e27769ad7f830fc3effae04e4"
+    }, {
+      "name" : "grafanaAPI",
+      "children" : [ {
+        "name" : "test01_AddTeamAndVerify",
+        "uid" : "667a8f87da70da32",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244054119,
+          "stop" : 1594244054297,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test02_UpdateTeamAndVerify",
+        "uid" : "3ccf28e33f1aceed",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244054390,
+          "stop" : 1594244054527,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test03_DeleteTeamAndVerify",
+        "uid" : "efb8a159c51a95d0",
+        "parentUid" : "21a5b1c1266292cb5f58fee372b7419b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244054533,
+          "stop" : 1594244054672,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "21a5b1c1266292cb5f58fee372b7419b"
     } ],
-    "uid" : "SanityTests.grafanaAPI"
+    "uid" : "e062ce92619bf6813c57937db86cc3fd"
   } ]
 }

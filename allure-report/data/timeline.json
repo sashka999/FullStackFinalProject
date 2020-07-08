@@ -4,28 +4,256 @@
   "children" : [ {
     "name" : "Alex",
     "children" : [ {
-      "name" : "3152@Alex.main(1)",
+      "name" : "19968@Alex.main(1)",
       "children" : [ {
-        "name" : "Test02: Update Team and Verify it",
-        "uid" : "7ac172e52533f78a",
-        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "name" : "Test01: Login to Grafana",
+        "uid" : "6b6601d0b07d3d86",
+        "parentUid" : "0e2a88cf4ce793b45d9bb26f0f229b0d",
         "status" : "passed",
         "time" : {
-          "start" : 1593685860999,
-          "stop" : 1593685861107,
-          "duration" : 108
+          "start" : 1594238501805,
+          "stop" : 1594238503236,
+          "duration" : 1431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "99093cdb8a6cf977",
+        "parentUid" : "0e2a88cf4ce793b45d9bb26f0f229b0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238503483,
+          "stop" : 1594238503987,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "cd773f91f2e95814",
+        "parentUid" : "0e2a88cf4ce793b45d9bb26f0f229b0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238504169,
+          "stop" : 1594238505235,
+          "duration" : 1066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Verify Avatar",
+        "uid" : "66fe42858a9ae746",
+        "parentUid" : "0e2a88cf4ce793b45d9bb26f0f229b0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238506377,
+          "stop" : 1594238507017,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "fe38a9039c9eb9cf",
+        "parentUid" : "0e2a88cf4ce793b45d9bb26f0f229b0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238505393,
+          "stop" : 1594238506209,
+          "duration" : 816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0e2a88cf4ce793b45d9bb26f0f229b0d"
+    }, {
+      "name" : "24220@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "b7a56937cd8f9ef2",
+        "parentUid" : "d8d3563986299fdc3905108175e2826f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242233442,
+          "stop" : 1594242233443,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "74fdc2dab6a8e9d3",
+        "parentUid" : "d8d3563986299fdc3905108175e2826f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242233517,
+          "stop" : 1594242233518,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "d8d3563986299fdc3905108175e2826f"
+    }, {
+      "name" : "24132@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "6bfa7e5250e75d48",
+        "parentUid" : "044ce7da3d4db48af739ccca6e4b8293",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242332216,
+          "stop" : 1594242332217,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "bd3ece70fb48e2bd",
+        "parentUid" : "044ce7da3d4db48af739ccca6e4b8293",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242332143,
+          "stop" : 1594242332145,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "044ce7da3d4db48af739ccca6e4b8293"
+    }, {
+      "name" : "18204@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team and Verify it",
+        "uid" : "667a8f87da70da32",
+        "parentUid" : "7d34120ff39bb71d66f753bb4a002781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244054119,
+          "stop" : 1594244054297,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test02: Update Team and Verify it",
+        "uid" : "3ccf28e33f1aceed",
+        "parentUid" : "7d34120ff39bb71d66f753bb4a002781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244054390,
+          "stop" : 1594244054527,
+          "duration" : 137
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "api" ]
       }, {
         "name" : "Test03: Delete Team and Verify it",
-        "uid" : "198a759bdbdef931",
-        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "uid" : "efb8a159c51a95d0",
+        "parentUid" : "7d34120ff39bb71d66f753bb4a002781",
         "status" : "passed",
         "time" : {
-          "start" : 1593685861113,
-          "stop" : 1593685861227,
+          "start" : 1594244054533,
+          "stop" : 1594244054672,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "7d34120ff39bb71d66f753bb4a002781"
+    }, {
+      "name" : "19072@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test05: Verify Avatar",
+        "uid" : "45a22990db735d6b",
+        "parentUid" : "d29e706f62b75ec522e03a5969d2e91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238405206,
+          "stop" : 1594238405911,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "41f081a7cf441054",
+        "parentUid" : "d29e706f62b75ec522e03a5969d2e91e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594238400106,
+          "stop" : 1594238402009,
+          "duration" : 1903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "785132d60e7030cd",
+        "parentUid" : "d29e706f62b75ec522e03a5969d2e91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238402949,
+          "stop" : 1594238404049,
+          "duration" : 1100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "c0c6b0732e34c593",
+        "parentUid" : "d29e706f62b75ec522e03a5969d2e91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238402278,
+          "stop" : 1594238402776,
+          "duration" : 498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "3e28c36d7abd16f6",
+        "parentUid" : "d29e706f62b75ec522e03a5969d2e91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238404219,
+          "stop" : 1594238405043,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d29e706f62b75ec522e03a5969d2e91e"
+    }, {
+      "name" : "10252@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test02: Update Team and Verify it",
+        "uid" : "26439073087386a6",
+        "parentUid" : "c3bb2c5b2b53c6fb99cb719e79aff844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240675423,
+          "stop" : 1594240675537,
           "duration" : 114
         },
         "flaky" : false,
@@ -33,19 +261,816 @@
         "parameters" : [ "api" ]
       }, {
         "name" : "Test01: Add Team and Verify it",
-        "uid" : "c76ccf0c6d446129",
-        "parentUid" : "fa3b80d30894c0e4a9362aa2ea4d30e7",
+        "uid" : "f77e07c5fa8e75a5",
+        "parentUid" : "c3bb2c5b2b53c6fb99cb719e79aff844",
         "status" : "passed",
         "time" : {
-          "start" : 1593685860716,
-          "stop" : 1593685860903,
-          "duration" : 187
+          "start" : 1594240675251,
+          "stop" : 1594240675366,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Delete Team and Verify it",
+        "uid" : "9ab9f658992587f1",
+        "parentUid" : "c3bb2c5b2b53c6fb99cb719e79aff844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240675541,
+          "stop" : 1594240675641,
+          "duration" : 100
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "api" ]
       } ],
-      "uid" : "fa3b80d30894c0e4a9362aa2ea4d30e7"
+      "uid" : "c3bb2c5b2b53c6fb99cb719e79aff844"
+    }, {
+      "name" : "21084@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test02: Update Team and Verify it",
+        "uid" : "6aca4a7ca5cf7c9d",
+        "parentUid" : "5eb8910d42dadfaf0839ad2553c14fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594222814446,
+          "stop" : 1594222814590,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Add Team and Verify it",
+        "uid" : "c9ba8187df1c68c7",
+        "parentUid" : "5eb8910d42dadfaf0839ad2553c14fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594222814222,
+          "stop" : 1594222814354,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Delete Team and Verify it",
+        "uid" : "1ad24f41ed0d25d7",
+        "parentUid" : "5eb8910d42dadfaf0839ad2553c14fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594222814597,
+          "stop" : 1594222814725,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "5eb8910d42dadfaf0839ad2553c14fd3"
+    }, {
+      "name" : "21780@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "cd4b2d97c8e234a0",
+        "parentUid" : "236a3c5a36413a51487bd2ac01a45673",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242302356,
+          "stop" : 1594242302358,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f3cd4cc562da9beb",
+        "parentUid" : "236a3c5a36413a51487bd2ac01a45673",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242302291,
+          "stop" : 1594242302293,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "236a3c5a36413a51487bd2ac01a45673"
+    }, {
+      "name" : "19672@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "5f76ac2b1ac74e57",
+        "parentUid" : "fc78564d98b86df0ed52ab8d1308fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240654451,
+          "stop" : 1594240655884,
+          "duration" : 1433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "5b1d81de9aaf3f5e",
+        "parentUid" : "fc78564d98b86df0ed52ab8d1308fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240656819,
+          "stop" : 1594240657926,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "f559aa656656d9a1",
+        "parentUid" : "fc78564d98b86df0ed52ab8d1308fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240656120,
+          "stop" : 1594240656648,
+          "duration" : 528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Verify Avatar",
+        "uid" : "7ff22b50053659f3",
+        "parentUid" : "fc78564d98b86df0ed52ab8d1308fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240659149,
+          "stop" : 1594240659829,
+          "duration" : 680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "691eb5b15f9c4f7d",
+        "parentUid" : "fc78564d98b86df0ed52ab8d1308fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240658085,
+          "stop" : 1594240658967,
+          "duration" : 882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "fc78564d98b86df0ed52ab8d1308fc07"
+    }, {
+      "name" : "22664@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "9f4d0ec9a1ad8e42",
+        "parentUid" : "bf859f7a4c828dd32ef0d32b868763f1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242867401,
+          "stop" : 1594242867403,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "a5db17263528e17d",
+        "parentUid" : "bf859f7a4c828dd32ef0d32b868763f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242867307,
+          "stop" : 1594242867309,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "bf859f7a4c828dd32ef0d32b868763f1"
+    }, {
+      "name" : "23852@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "cec5e229f12482d1",
+        "parentUid" : "e0c16779c18c4c96327e32c5ef1c9cbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594223054065,
+          "stop" : 1594223054565,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "e0c16779c18c4c96327e32c5ef1c9cbd"
+    }, {
+      "name" : "696@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana with DB credentials",
+        "uid" : "3dfc7d4f2aae2bcb",
+        "parentUid" : "9291e8294b3848f57b1a40d7424404c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594222911784,
+          "stop" : 1594222913479,
+          "duration" : 1695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9291e8294b3848f57b1a40d7424404c3"
+    }, {
+      "name" : "21336@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "cf93691e4fd61075",
+        "parentUid" : "b56e12673ac8a9a37f0ea188adcda493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244025803,
+          "stop" : 1594244026351,
+          "duration" : 548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Verify Avatar",
+        "uid" : "2bc6aa5ff0960122",
+        "parentUid" : "b56e12673ac8a9a37f0ea188adcda493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244028862,
+          "stop" : 1594244029671,
+          "duration" : 809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "8208ac0ece14bebd",
+        "parentUid" : "b56e12673ac8a9a37f0ea188adcda493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244023962,
+          "stop" : 1594244025507,
+          "duration" : 1545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "ff72641c2f958c66",
+        "parentUid" : "b56e12673ac8a9a37f0ea188adcda493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244026533,
+          "stop" : 1594244027667,
+          "duration" : 1134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "a358a33cf630b10",
+        "parentUid" : "b56e12673ac8a9a37f0ea188adcda493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594244027828,
+          "stop" : 1594244028695,
+          "duration" : 867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b56e12673ac8a9a37f0ea188adcda493"
+    }, {
+      "name" : "12828@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "58ea581a54b2480c",
+        "parentUid" : "9fbb671bb077f246051938bee1dea1db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238561592,
+          "stop" : 1594238562472,
+          "duration" : 880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "9f6cd87aba002682",
+        "parentUid" : "9fbb671bb077f246051938bee1dea1db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238560265,
+          "stop" : 1594238561422,
+          "duration" : 1157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "cb836fd3c1a2ad81",
+        "parentUid" : "9fbb671bb077f246051938bee1dea1db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238557639,
+          "stop" : 1594238559208,
+          "duration" : 1569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "b8ef5b86452de38f",
+        "parentUid" : "9fbb671bb077f246051938bee1dea1db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238559546,
+          "stop" : 1594238560071,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Verify Avatar",
+        "uid" : "95bd7b68d00bcdc",
+        "parentUid" : "9fbb671bb077f246051938bee1dea1db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594238562629,
+          "stop" : 1594238563416,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9fbb671bb077f246051938bee1dea1db"
+    }, {
+      "name" : "9672@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "5b733aa8b5fe084",
+        "parentUid" : "f6d7f3e66ffaf8170cb462f3b6a5aad1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240075426,
+          "stop" : 1594240075427,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "b88c3fc61ed3e7b6",
+        "parentUid" : "f6d7f3e66ffaf8170cb462f3b6a5aad1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594240075484,
+          "stop" : 1594240075486,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "f6d7f3e66ffaf8170cb462f3b6a5aad1"
+    }, {
+      "name" : "22624@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana with DB credentials",
+        "uid" : "92e9e83b57fcc9f1",
+        "parentUid" : "55a681af36a6719520d51e05d3aaa7df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240628424,
+          "stop" : 1594240629943,
+          "duration" : 1519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      } ],
+      "uid" : "55a681af36a6719520d51e05d3aaa7df"
+    }, {
+      "name" : "4768@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "bf5968ca43725649",
+        "parentUid" : "1dcabc9b52d404751a6f8c01c13872d3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594240710329,
+          "stop" : 1594240710330,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "dcba9a51861e5ba5",
+        "parentUid" : "1dcabc9b52d404751a6f8c01c13872d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240710261,
+          "stop" : 1594240710263,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "1dcabc9b52d404751a6f8c01c13872d3"
+    }, {
+      "name" : "24120@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "9be5231408f86564",
+        "parentUid" : "f33ce5fed0eb25e4e638bc45f91e52d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594242827897,
+          "stop" : 1594242829606,
+          "duration" : 1709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "f33ce5fed0eb25e4e638bc45f91e52d9"
+    }, {
+      "name" : "22392@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "49370f07fcd32924",
+        "parentUid" : "b8796a05bf7a01b8207952dce8f6571d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594223809894,
+          "stop" : 1594223810546,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "b8796a05bf7a01b8207952dce8f6571d"
+    }, {
+      "name" : "25352@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "e5bd9a60b1597439",
+        "parentUid" : "a762081175b33a7594d154d1923fc718",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242278275,
+          "stop" : 1594242278276,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "803f219ad0dbced7",
+        "parentUid" : "a762081175b33a7594d154d1923fc718",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242278332,
+          "stop" : 1594242278333,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "a762081175b33a7594d154d1923fc718"
+    }, {
+      "name" : "25224@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "b6a07898e8ebc429",
+        "parentUid" : "fab224c4c203c970d42deca635c8dd65",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594243533705,
+          "stop" : 1594243533706,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "cf02f437472327e5",
+        "parentUid" : "fab224c4c203c970d42deca635c8dd65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594243533623,
+          "stop" : 1594243533625,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "fab224c4c203c970d42deca635c8dd65"
+    }, {
+      "name" : "18800@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "85f2860f53d6eab7",
+        "parentUid" : "9525c9ec0ac434d8d48e1a2c157f4955",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594241123629,
+          "stop" : 1594241123631,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "25bf615582d80e2c",
+        "parentUid" : "9525c9ec0ac434d8d48e1a2c157f4955",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594241123557,
+          "stop" : 1594241123560,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9525c9ec0ac434d8d48e1a2c157f4955"
+    }, {
+      "name" : "18144@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "c2ea35a965d13655",
+        "parentUid" : "36ab11ce481979dfc0bd45451236d978",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594240698136,
+          "stop" : 1594240698524,
+          "duration" : 388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "36ab11ce481979dfc0bd45451236d978"
+    }, {
+      "name" : "22324@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "ce6e28f487d15741",
+        "parentUid" : "7aab86725cb4ee67f5a135d8300568ee",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594240867176,
+          "stop" : 1594240867178,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "e05d4ebd74b67088",
+        "parentUid" : "7aab86725cb4ee67f5a135d8300568ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240867094,
+          "stop" : 1594240867096,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "7aab86725cb4ee67f5a135d8300568ee"
+    }, {
+      "name" : "17252@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "241c54201dc6f321",
+        "parentUid" : "bad8a875b77c1a1a295496ffafcc6c9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594223771302,
+          "stop" : 1594223771810,
+          "duration" : 508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "bad8a875b77c1a1a295496ffafcc6c9f"
+    }, {
+      "name" : "20704@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "86dc0a24158a0891",
+        "parentUid" : "95b40b8b86deb208f46de1bb4c596f0a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594241789146,
+          "stop" : 1594241789147,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "32111563fa188d55",
+        "parentUid" : "95b40b8b86deb208f46de1bb4c596f0a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594241789205,
+          "stop" : 1594241789206,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "95b40b8b86deb208f46de1bb4c596f0a"
+    }, {
+      "name" : "22216@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana with DB credentials",
+        "uid" : "907e772847e31c4",
+        "parentUid" : "9758500efb6e6ef21849a478687dbba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594243990153,
+          "stop" : 1594243991797,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      } ],
+      "uid" : "9758500efb6e6ef21849a478687dbba3"
+    }, {
+      "name" : "23716@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "509753b87b13f865",
+        "parentUid" : "b509b21714f8110c20997a936b7713d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594243864635,
+          "stop" : 1594243866244,
+          "duration" : 1609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "b509b21714f8110c20997a936b7713d3"
+    }, {
+      "name" : "20204@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "37b7face58ab8f17",
+        "parentUid" : "e8170f3face5934dc2133debe78db1cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594223735461,
+          "stop" : 1594223735842,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "e8170f3face5934dc2133debe78db1cd"
+    }, {
+      "name" : "24980@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana with DB credentials",
+        "uid" : "334db52b03027c32",
+        "parentUid" : "7d132763cd04c2c810db5e608ca1949e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594225224745,
+          "stop" : 1594225226311,
+          "duration" : 1566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "7d132763cd04c2c810db5e608ca1949e"
+    }, {
+      "name" : "23452@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "b5e841244b16f1e4",
+        "parentUid" : "3c7b7ce40aab4f07f1098c9f503eae1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594240143963,
+          "stop" : 1594240143964,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      }, {
+        "name" : "Test01: Login to Grafana with DB credentials",
+        "uid" : "4630c6be27970e39",
+        "parentUid" : "3c7b7ce40aab4f07f1098c9f503eae1d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594240144045,
+          "stop" : 1594240144047,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "webDB" ]
+      } ],
+      "uid" : "3c7b7ce40aab4f07f1098c9f503eae1d"
+    }, {
+      "name" : "13264@Alex.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "2a1038edea9e660f",
+        "parentUid" : "c25004c1e4ad1eeb9f069b47d32a4a39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594242515968,
+          "stop" : 1594242515970,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "8020f7d9be2b175d",
+        "parentUid" : "c25004c1e4ad1eeb9f069b47d32a4a39",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594242516037,
+          "stop" : 1594242516038,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "c25004c1e4ad1eeb9f069b47d32a4a39"
+    }, {
+      "name" : "24636@Alex.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addition Command",
+        "uid" : "2c08bc995e852e99",
+        "parentUid" : "9e95529351e34ddd6c04c164661664f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594243896619,
+          "stop" : 1594243898689,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "9e95529351e34ddd6c04c164661664f1"
     } ],
     "uid" : "f9a0df851d8cefbd8100405915f5d457"
   } ]

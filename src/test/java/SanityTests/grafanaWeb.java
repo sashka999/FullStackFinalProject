@@ -16,7 +16,7 @@ public class grafanaWeb extends commonOps {
     public void test01_login(){
 
         webFlows.login(getData("user"), getData("password"));
-        verifications.textInElement(grafanaMain.txt_mainHeading, "Welcome to PageObjects.Grafana");
+        verifications.textInElement(grafanaMain.txt_mainHeading, "Welcome to Grafana");
     }
 
     @Test(description = "Test02: Verify Default Users")

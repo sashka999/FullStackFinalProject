@@ -3,6 +3,7 @@ package Utilities;
 import Extensions.apiActions;
 import WorkFlows.apiFlows;
 import io.appium.java_client.windows.WindowsDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import org.openqa.selenium.WebDriver;
@@ -132,7 +133,7 @@ public class commonOps extends base{
         driver = new ChromeDriver(dc);
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
     }
-// ------ This method is used to initiate Windows Driver to work with Dekstop application -----------------------------------------------------------------------------------
+// ------ This method is used to initiate Windows Driver to work with Desktop application -----------------------------------------------------------------------------------
     public static void initDesktop(){
 
         dc.setCapability("app", getData("Calculator_App"));
@@ -165,6 +166,8 @@ public class commonOps extends base{
                 initElectron();
             else if(Platform.equalsIgnoreCase("desktop"))
                 initDesktop();
+            else if(Platform.equalsIgnoreCase("webDB"))
+                initBrowser(getData("BrowserName"));
             else
                 throw new RuntimeException(("Invalid platform name stated"));
             managePages.init();
