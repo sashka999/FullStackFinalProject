@@ -14,9 +14,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
+import org.testng.annotations.Parameters;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -24,7 +23,6 @@ import java.io.File;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import org.testng.annotations.Parameters;
 import org.w3c.dom.Document;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -144,8 +142,6 @@ public class commonOps extends base{
             System.out.println("Can not connect to Windows Application, See Details: " + e);
         }
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
-
-
     }
 // ----- This method receives Platform parameter (web, API, desktop etc) and then calls another method to initiate its driver ------------------------------------------------
 // ----- Then it calls to another method to initiate PageObjects (elements on page) ------------------------------------------------------------------------------------------
