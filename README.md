@@ -1,4 +1,4 @@
-## **[Full Stack Automation Final Project](https://github.com/sashka999/FullStackFinalProject)**
+## **Full Stack Automation Final Project**
 
 ***
 ### **_This project created to demonstrate my knowledge and skills in Automation Testing._**
