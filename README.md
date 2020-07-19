@@ -39,7 +39,7 @@ The project is an example of infrastructure for automation testing of different 
 * Electron application
 * Windows calculator - Desktop application
 
-### _Tools used in the project:_
+### _Tools & Frameworks used in the project:_
 * TestNG - Testing Framework
 * Listeners - interface used to generate logs and customize the TestNG reports
 * MySQL Free Online DB - used for login to Grafana web page
